@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <link rel="stylesheet" href="css/slick-theme.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/materiaicons.css" />
+
+    <link rel="stylesheet" href="css/fawesome.css" />
+
+    <style>
+      .botaoAcessar:hover {
+        background-color: black;
+        border: none !important;
+      }
+
+      .botaoAcessar:hover a {
+        color: white;
+      }
+
+      .botaoAcessar a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="bg-dark text-white">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav list">
+              <li class="nav-item w-25 itemHover">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item w-25 itemHover">
+                <a class="nav-link" href="#sobre">SOBRE</a>
+              </li>
+              <li class="nav-item w-25 itemHover">
+                <a class="nav-link" href="#">PAGES</a>
+              </li>
+              <li class="nav-item w-25 itemHover">
+                <a class="nav-link" href="#">GALLERY</a>
+              </li>
+              <li class="nav-item w-25 itemHover">
+                <a class="nav-link" href="#">BLOG</a>
+              </li>
+              <li class="nav-item w-25 itemHover">
+                <a class="nav-link" href="#">SHOP</a>
+              </li>
+              <li class="nav-item w-25 itemHover">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="imgInicial position-relative">
+        <div class="slider">
+          <div class="slick1 d-flex justify-content-start align-items-center text-behind position-relative">
+            <div data-id="1" data-aos="fade-right" class="ms-5">
+              <div class="text-transparent">
+                <h1 class="texto text-bg-dark ps-2">Slide de Fotos Exemplo</h1>
+              </div>
+              <h2 class="h1"><span class="text-danger">Primeira</span> Imagem.</h2>
+              <p class="text-muted bg-body-secondary ps-2">Arraste para o lado para ver mais.</p>
+            </div>
+
+            <button class="btn border position-absolute botaoAcessar" style="bottom: 60px; left: 55px">
+              <a class="text-white" href="#">Acessar</a>
+            </button>
+          </div>
+
+          <div class="slick2 d-flex justify-content-start align-items-center text-behind position-relative">
+            <div data-id="1" data-aos="fade-right" class="ms-5">
+              <div class="text-transparent">
+                <h1 class="texto text-bg-dark">Slide de Fotos Exemplo</h1>
+              </div>
+              <h2 class="h1 text-white"><span class="text-danger">Segunda</span> Imagem.</h2>
+              <p class="text-muted bg-body-secondary">Arraste para o lado para ver mais.</p>
+            </div>
+
+            <button class="btn border position-absolute botaoAcessar" style="bottom: 60px; left: 55px">
+              <a class="text-white" href="#">Acessar</a>
+            </button>
+          </div>
+
+          <div class="slick3 d-flex justify-content-start align-items-center text-behind position-relative">
+            <div data-id="1" data-aos="fade-right" class="ms-5">
+              <div class="text-transparent">
+                <h1 class="texto text-bg-dark">Slide de Fotos Exemplo</h1>
+              </div>
+              <h2 class="h1 text-white"><span class="text-danger">Terceira</span> Imagem.</h2>
+              <p class="text-muted bg-body-secondary">Arraste para o lado para ver mais.</p>
+            </div>
+
+            <button class="btn border position-absolute botaoAcessar" style="bottom: 60px; left: 55px">
+              <a class="text-white" href="#">Acessar</a>
+            </button>
+          </div>
+        </div>
+        <div
+          class="rounded-5 position-absolute"
+          style="height: 80px; width: 60px; left: 45%; bottom: -30px; overflow: hidden; border-bottom: 2px solid white"
+        >
+          <a class="m-auto arrow" href="#segundaSection">
+            <div class="m-auto text-center h1"><i class="material-icons text-white">arrow_downward</i></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="segundaSection bg-black" id="segundaSection">
+        <div class="secSegConteudo p-5 row">
+          <div class="col-12">
+            <div class="row icones">
+              <div class="col-12 col-lg-2 mb-3 row secSegConteudo-item">
+                <!-- <i class="material-icons icon-sec col-12 col-lg-3">speed</i> -->
+                <img class="icon-sec col-4 col-lg-5" src="img/icones/html5.png" alt="" />
+                <h3 class="text-white col-12 col-lg-3 textCont p-3" style="border-radius: 50%">4.5SEC</h3>
+                <p class="text-light h3">HTML5</p>
+              </div>
+              <div class="col-12 col-lg-2 mb-3 row secSegConteudo-item">
+                <!-- <i class="material-icons icon-sec col-12 col-lg-3">key</i> -->
+                <img class="icon-sec col-4 col-lg-5" src="img/icones/css.png" alt="" />
+                <h3 class="text-white col-12 col-lg-3 textCont p-3" style="border-radius: 50%">4.5SEC</h3>
+                <p class="text-light h3">CSS3</p>
+              </div>
+              <div class="col-12 col-lg-2 mb-3 row secSegConteudo-item">
+                <!-- <i class="material-icons icon-sec col-12 col-lg-3">ev_station</i> -->
+                <img class="icon-sec col-4 col-lg-5" src="img/icones/js.png" alt="" />
+                <h3 class="text-white col-12 col-lg-3 textCont p-3" style="border-radius: 50%">4.5SEC</h3>
+                <p class="text-light h3">JAVASCRIP</p>
+              </div>
+              <div class="col-12 col-lg-2 mb-3 row secSegConteudo-item">
+                <!-- <i class="material-icons icon-sec col-12 col-lg-3">add_road</i> -->
+                <img class="icon-sec col-4 col-lg-5" src="img/icones/nodejs.png" alt="" />
+                <h3 class="text-white col-12 col-lg-3 textCont p-3" style="border-radius: 50%">4.5SEC</h3>
+                <p class="text-light h3">NODE.JS</p>
+              </div>
+              <div class="col-12 col-lg-2 mb-3 row secSegConteudo-item">
+                <!-- <i class="material-icons icon-sec col-12 col-lg-3">add_road</i> -->
+                <img class="icon-sec col-4 col-lg-5" src="img/icones/bootstrap.png" alt="" />
+                <h3 class="text-white col-12 col-lg-3 textCont p-3" style="border-radius: 50%">4.5SEC</h3>
+                <p class="text-light h3">Bootstrap</p>
+              </div>
+              <div class="col-12 col-lg-2 mb-3 row secSegConteudo-item">
+                <!-- <i class="material-icons icon-sec col-12 col-lg-3">add_road</i> -->
+                <img class="icon-sec col-4 col-lg-5" src="img/icones/jquery.png" alt="" />
+                <h3 class="text-white col-12 col-lg-3 textCont p-3" style="border-radius: 50%">4.5SEC</h3>
+                <p class="text-light h3">Jquery</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 p-2 text-white text-center mt-5">
+            <h2 class="itemHover d-inline-block" id="sobre">SOBRE</h2>
+            <div class="container p-1" style="text-align: justify; word-spacing: 2px">
+              <p>
+                Bem-vindo ao meu mundo digital! Sou desenvolvedora web fullstack com experiência em uma variedade de tecnologias, trabalhando para
+                transformar ideias criativas em experiências digitais interativas e funcionais.
+              </p>
+
+              <p>
+                Com conhecimentos sólidos em HTML, CSS, JavaScript, jQuery, Bootstrap e Node.js, estou comprometida em entregar soluções web eficazes
+                e visualmente impressionantes. Minha abordagem abrangente abrange desde a construção de interfaces de usuário intuitivas até o
+                desenvolvimento de back-ends com Node.js e a integração de APIs para criar experiências web dinâmicas e escaláveis.
+              </p>
+
+              <p>
+                Ao longo da minha jornada, tenho colaborado em uma variedade de projetos desafiadores, onde minha paixão pelo desenvolvimento web me
+                impulsiona a buscar constantemente novos conhecimentos e aprimorar minhas habilidades. Estou sempre ansiosa para enfrentar novos
+                desafios e contribuir para o sucesso de projetos inovadores.
+              </p>
+            </div>
+            <!-- <video
+                      class="elementor-video" style="width: 100%;" src="https://nexteuv.wpengine.com/wp-content/uploads/2023/02/Electric-car-MP4.mp4" autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload" >
+                    </video> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="terceiraSection">
+        <div class="terceira p-5 d-grid row justify-content-center d-none" id="primeiro">
+          <div class="container p-0">
+            <ul class="lista d-flex justify-content-end me-2">
+              <li class="itemHover h1 text-white">Primeiro</li>
+              <li class="itemHover h1 text-white">Segundo</li>
+              <li class="itemHover h1 text-white">Terceiro</li>
+            </ul>
+
+            <div class="container p-0">
+              <h4 class="text-white" style="font-weight: 100">Alguns efeitos...</h4>
+              <h2 class="text-white h2">Animações</h2>
+              <p class="h1 text-center text-white mb-3">Primeira</p>
+
+              <div class="row d-flex justify-content-center m-0" style="width: 100%">
+                <div class="p-0 mt-4 col-10 col-lg-5 d-grid justify-content-center align-items-center" style="max-height: 250px; text-align: start">
+                  <div>
+                    <h2 class="h2 text-white">Efeito de Fechamento em Imagem</h2>
+                    <p class="" style="font-style: italic; font-weight: 100">
+                      Ao passar o mouse sobre a imagem, um efeito delicado e agradável é criado, transformando o contorno da imagem em uma flecha de
+                      forma sutil.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-10 col-lg-5 p-0 divImg" style="max-height: 500px">
+                  <div class="seta d-none"></div>
+                  <img src="https://dorcaschagas.github.io/thema/src/img/carros/efeitos/home-tab-1-4.jpg" alt="" />
+                </div>
+
+                <div class="mt-5 row p-1">
+                  <div class="col-12 col-lg-5 ms-3">
+                    <div class="col-10 p-0 divImgLeft" style="width: 91%">
+                      <div class="setaLeft d-none"></div>
+                      <img src="https://dorcaschagas.github.io/thema/src/img/carros/efeitos/home-tab-1-2.jpg" alt="" />
+                    </div>
+                  </div>
+
+                  <div class="p-0 mt-4 col-10 col-lg-5 d-grid justify-content-center align-items-center" style="max-height: 250px; text-align: start">
+                    <div>
+                      <h2 class="h2 text-white">Efeito de Fechamento em Imagem</h2>
+                      <p class="" style="font-style: italic; font-weight: 100">
+                        Ao passar o mouse sobre a imagem, um efeito delicado e agradável é criado, transformando o contorno da imagem em uma flecha de
+                        forma sutil.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="terceira p-5 d-grid row justify-content-center d-none" id="segundo">
+          <div class="container p-0">
+            <ul class="lista d-flex justify-content-end me-2">
+              <li class="itemHover h1 text-white">Primeiro</li>
+              <li class="itemHover h1 text-white">Segundo</li>
+              <li class="itemHover h1 text-white">Terceiro</li>
+            </ul>
+
+            <div class="container p-0">
+              <h4 class="text-white" style="font-weight: 100">Alguns efeitos...</h4>
+              <h2 class="text-white h2">Animações</h2>
+              <p class="h1 text-center text-white mb-3">Segunda</p>
+
+              <div class="row d-flex justify-content-center m-0" style="width: 100%">
+                <div class="p-0 mt-4 col-10 col-lg-5 d-grid justify-content-center align-items-center" style="max-height: 250px; text-align: start">
+                  <div>
+                    <h2 class="h2 text-white">Efeito de Fechamento em Imagem</h2>
+                    <p class="" style="font-style: italic; font-weight: 100">
+                      Ao passar o mouse sobre a imagem, um efeito delicado e agradável é criado, transformando o contorno da imagem em uma flecha de
+                      forma sutil.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-10 col-lg-5 p-0 divImg" style="max-height: 500px">
+                  <div class="seta d-none"></div>
+                  <img src="https://dorcaschagas.github.io/thema/src/img/carros/efeitos/home-tab-1-4.jpg" alt="" />
+                </div>
+
+                <div class="mt-5 row p-1">
+                  <div class="col-12 col-lg-5 ms-3">
+                    <div class="col-10 p-0 divImgLeft" style="width: 91%">
+                      <div class="setaLeft d-none"></div>
+                      <img src="https://dorcaschagas.github.io/thema/src/img/carros/efeitos/home-tab-1-2.jpg" alt="" />
+                    </div>
+                  </div>
+
+                  <div class="p-0 mt-4 col-10 col-lg-5 d-grid justify-content-center align-items-center" style="max-height: 250px; text-align: start">
+                    <div>
+                      <h2 class="h2 text-white">Efeito de Fechamento em Imagem</h2>
+                      <p class="" style="font-style: italic; font-weight: 100">
+                        Ao passar o mouse sobre a imagem, um efeito delicado e agradável é criado, transformando o contorno da imagem em uma flecha de
+                        forma sutil.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="terceira p-5 d-grid row justify-content-center d-none" id="terceiro">
+          <div class="container p-0">
+            <ul class="lista d-flex justify-content-end me-2">
+              <li class="itemHover h1 text-white">Primeiro</li>
+              <li class="itemHover h1 text-white">Segundo</li>
+              <li class="itemHover h1 text-white">Terceiro</li>
+            </ul>
+
+            <div class="container p-0">
+              <h4 class="text-white" style="font-weight: 100">Alguns efeitos...</h4>
+              <h2 class="text-white h2">Animações</h2>
+              <p class="h1 text-center text-white mb-3">Terceira</p>
+
+              <div class="row d-flex justify-content-center m-0" style="width: 100%">
+                <div class="p-0 mt-4 col-10 col-lg-5 d-grid justify-content-center align-items-center" style="max-height: 250px; text-align: start">
+                  <div>
+                    <h2 class="h2 text-white">Efeito de Fechamento em Imagem</h2>
+                    <p class="" style="font-style: italic; font-weight: 100">
+                      Ao passar o mouse sobre a imagem, um efeito delicado e agradável é criado, transformando o contorno da imagem em uma flecha de
+                      forma sutil.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-10 col-lg-5 p-0 divImg" style="max-height: 500px">
+                  <div class="seta d-none"></div>
+                  <img src="https://dorcaschagas.github.io/thema/src/img/carros/efeitos/home-tab-1-4.jpg" alt="" />
+                </div>
+
+                <div class="mt-5 row p-1">
+                  <div class="col-12 col-lg-5 ms-3">
+                    <div class="col-10 p-0 divImgLeft" style="width: 91%">
+                      <div class="setaLeft d-none"></div>
+                      <img src="https://dorcaschagas.github.io/thema/src/img/carros/efeitos/home-tab-1-2.jpg" alt="" />
+                    </div>
+                  </div>
+
+                  <div class="p-0 mt-4 col-10 col-lg-5 d-grid justify-content-center align-items-center" style="max-height: 250px; text-align: start">
+                    <div>
+                      <h2 class="h2 text-white">Efeito de Fechamento em Imagem</h2>
+                      <p class="" style="font-style: italic; font-weight: 100">
+                        Ao passar o mouse sobre a imagem, um efeito delicado e agradável é criado, transformando o contorno da imagem em uma flecha de
+                        forma sutil.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="sectionSeg">
+            <div class="aos-all">
+                <div data-id="1" class="aos-item" data-aos="fade-left"></div>
+                <div data-id="1" class="aos-item" data-aos="fade-right"></div>
+                <div data-id="1" class="aos-item" data-aos="fade-up"></div>
+                <div data-id="2" class="aos-item" data-aos="fade-down"></div>
+                <div data-id="7" class="aos-item" data-aos="fade-in"></div>
+                <div data-id="7" class="aos-item" data-aos="fade-out"></div>
+
+                <div data-id="21" class="aos-item" data-aos="zoom-out"></div>
+                <div data-id="23" class="aos-item" data-aos="zoom-out-up"></div>
+                <div data-id="3" class="aos-item" data-aos="zoom-out-down"></div>
+
+                <div data-id="4" class="aos-item" data-aos="flip-down"></div>
+                <div data-id="5" class="aos-item" data-aos="flip-up"></div>
+            </div>
+        </section> -->
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/aos.js"></script>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <script src="js/slick.js"></script>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
